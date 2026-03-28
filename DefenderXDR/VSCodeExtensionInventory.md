@@ -2,8 +2,8 @@
 
 ## MITRE ATT&CK Technique(s)
 
-| Technique ID | Title    | Link    |
-| ---  | --- | --- |
+| Technique ID | Title | Link |
+| --- | --- | --- |
 | T1176.002 | Software Extensions: IDE Extensions | https://attack.mitre.org/techniques/T1176/002/ |
 
 ### Description

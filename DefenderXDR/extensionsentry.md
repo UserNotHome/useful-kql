@@ -2,9 +2,9 @@
 
 ## MITRE ATT&CK Technique(s)
 
-| Technique ID | Title    | Link    |
-| ---  | --- | --- |
-| T1176.001 | Software Extensions: Browser Extensions  | https://attack.mitre.org/techniques/T1176/001/ |
+| Technique ID | Title | Link |
+| --- | --- | --- |
+| T1176.001 | Software Extensions: Browser Extensions | https://attack.mitre.org/techniques/T1176/001/ |
 
 ### Description
 This query matches malicous extension ids from extsentry and compares them with your MDE browser extension inventory.
