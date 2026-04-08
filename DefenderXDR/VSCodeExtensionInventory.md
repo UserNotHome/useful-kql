@@ -31,7 +31,7 @@ DeviceProcessEvents
 | distinct extension_id
 ```
 ### Defender for Endpoint (MDE) via DeviceProcessEvents ###
-```
+```KQL
 let extensions = externaldata(extension_id: string, publisher_id: string, extension_name: string, metadata_comment: string, metadata_severity: string, metadata_category: string, metadata_source: string, metadata_reference: string, metadata_status: string, removal_date: string)
     [h'https://vsxsentry.github.io/feeds/vsxsentry_feed.csv']
 with (format="csv", ignoreFirstRecord=true)
